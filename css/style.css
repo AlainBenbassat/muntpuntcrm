@@ -1,0 +1,11 @@
+body.path-frontpage h1 {
+  background-image: url('../logo-small.png');
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+#navbar, div.navbar-header {
+  width: 100%;
+}
+
+
