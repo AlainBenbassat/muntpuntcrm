@@ -8,4 +8,8 @@ body.path-frontpage h1 {
   width: 100%;
 }
 
+form#Register label {
+  color: #333333 !important;
+}
+
 
