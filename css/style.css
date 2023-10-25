@@ -1,15 +1,51 @@
-body.path-frontpage h1 {
-  background-image: url('../logo-small.png');
-  background-repeat: no-repeat;
-  padding-left: 40px;
+@font-face {
+  font-family: "FlandersArtSans";
+  src: url(../fonts/FlandersArtSans/FlandersArtSans-Regular.ttf) format("truetype");
 }
 
-#navbar, div.navbar-header {
+@font-face {
+  font-family: "SangBleuKingdom";
+  src: url(../fonts/SangBleuKingdom/SangBleuKingdom-Regular.otf) format("opentype");
+}
+
+body {
+  font-family: FlandersArtSans,Helvetica,sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: SangBleuKingdom,Helvetica,sans-serif;
+}
+
+#navbar {
+  width: 100%;
+  background: url('../muntpunt_logo.png') no-repeat left;
+  height: 90px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid black;
+  border-radius: unset;
+}
+
+div.navbar-header {
   width: 100%;
 }
 
 form#Register label {
   color: #333333 !important;
+}
+
+#block-footer {
+  background-color: #feeb64;
+  height: 3em;
+  border-top: none;
+  border-bottom: 1px solid black !important;
+  margin-bottom: 10px;
+}
+
+#block-footerlogo {
+  background: url('../muntpunt_footer.png') no-repeat right;
+  height: 3em;
 }
 
 
